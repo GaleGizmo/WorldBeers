@@ -1,6 +1,6 @@
 import { getApiBeers } from "../components/apibeer";
 
 document.addEventListener('DOMContentLoaded', async () => {
-    const beers = await getApiBeers()
+    const beers = getApiBeers()
     console.log(beers);
 })
