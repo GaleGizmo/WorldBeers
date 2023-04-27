@@ -1,0 +1,17 @@
+header {
+    background-color: #F2DEB4;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #464646;
+    font-family: Arial, sans-serif;
+    border-bottom: 5px solid #D6B08D;
+    position: relative;
+
+    .header-image {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        max-width: 200px;
+    }
+}
