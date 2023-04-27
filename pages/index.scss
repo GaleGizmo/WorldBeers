@@ -1,3 +1,17 @@
+
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.b-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 header {
     background-color: #F2DEB4;
     text-align: center;
@@ -14,4 +28,5 @@ header {
         right: 20px;
         max-width: 200px;
     }
+
 }
